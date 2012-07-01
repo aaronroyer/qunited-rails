@@ -2,21 +2,9 @@
 
 Runs headless QUnit tests with [QUnited](https://github.com/aaronroyer/qunited) in your Rails 3 project.
 
-## Installation
-
-```
-$ gem install qunited-rails
-```
-
-This installs the following gems:
-```
-qunited
-qunited-rails
-```
-
 ## Configuration
 
-Add the following to your Gemfile:
+Add the following to your Gemfile in your Rails 3 project:
 
 ```ruby
 group :test, :development do
@@ -24,11 +12,15 @@ group :test, :development do
 end
 ```
 
-The development group is necessary to run Rake tasks without having to type RAILS_ENV=test
+The development group is necessary to run Rake tasks without having to type RAILS_ENV=test.
+
+Next run Bundler to install the necessary gems.
+
+```
+$ bundle
+```
 
 ## Running Tests
-
-In your Rails project:
 
 ```
 $ bundle exec rake test:javascripts
