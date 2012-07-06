@@ -28,7 +28,7 @@ $ bundle exec rake test:javascripts
 
 ## Dependencies
 
-Right now only Rhino is set up to run tests. This means you'll need to have Java (version 1.1 minimum) in your path to use qunited-rails.
+Tests are run with PhantomJS if available, otherwise Rhino (Java) is used. This means you'll either need to have PhantomJS or Java (version 1.1 minimum) in your path to use qunited-rails.
 
 ## License
 
