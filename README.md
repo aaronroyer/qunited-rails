@@ -1,6 +1,6 @@
-# qunited-rails
+<img src="http://i.imgur.com/NIoQy.png" width="150px" />
 
-Runs headless QUnit tests with [QUnited](https://github.com/aaronroyer/qunited) in your Rails 3 project.
+qunited-rails runs headless QUnit tests with [QUnited](https://github.com/aaronroyer/qunited) in your Rails 3 project.
 
 ## Configuration
 
