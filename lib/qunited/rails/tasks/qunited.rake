@@ -1,7 +1,7 @@
 require 'qunited/rake_task'
 
-desc 'Run JavaScript tests with QUnited'
-task 'test:javascripts' => :environment do
+desc 'Run tests on application JavaScript file'
+task 'test:js:application' => :environment do
   QUnited::RakeTask.new('qunited') do |t|
     all_js_file = './tmp/qunited-application.js'
     File.open(all_js_file, 'w') do |f|
