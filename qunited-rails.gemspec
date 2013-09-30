@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/aaronroyer/qunited-rails"
   s.summary     = %q{QUnit tests for your Rails build}
   s.description = %q{Run headless JavaScript tests with QUnit/QUnited with your Rails project}
+  s.license     = 'MIT'
 
   s.rubyforge_project = "qunited-rails"
 
